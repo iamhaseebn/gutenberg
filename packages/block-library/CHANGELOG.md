@@ -18,6 +18,7 @@
 
 -   Footnotes: Treat unreadable `footnotes` post meta as no footnotes instead of throwing, so the block shows its placeholder rather than the block crash warning ([#81201](https://github.com/WordPress/gutenberg/pull/81201)).
 -   Playlist: Improve handling of declarative waveform player configuration ([#81342](https://github.com/WordPress/gutenberg/pull/81342)).
+-   Post Template: Pass an explicit default layout to the inner blocks of the Post Template and Term Template blocks, so the movers, inserters, and child controls of the template's blocks no longer follow the grid used to arrange the post/term items ([#81120](https://github.com/WordPress/gutenberg/pull/81120)).
 
 ### Internal
 
