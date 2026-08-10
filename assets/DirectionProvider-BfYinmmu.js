@@ -1,0 +1,1 @@
+import{r,j as i}from"./iframe-y4JzBT_O.js";import{D as o}from"./usePositioner-CJWknSRl.js";const e=function DirectionProvider2(e){const{direction:n="ltr"}=e,s=r.useMemo(()=>({direction:n}),[n]);return i.jsx(o.Provider,{value:s,children:e.children})};export{e as D};

@@ -1,0 +1,1 @@
+import"./index-8jHuO8Eu.js";import{u as s}from"./index-C3PhuhbS.js";import{s as t}from"./index-DfC8LfQ2.js";import{u as o}from"./lock-unlock-C6CPcS20.js";import{a as e}from"./remove-DPq4WLR_.js";function useSettings(...i){const{clientId:n=null}=s();return e(s=>o(s(t)).getBlockSettings(n,...i),[n,...i])}export{useSettings as u};
